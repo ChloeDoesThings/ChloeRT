@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZfmHRIhauAPNGhf1AKDC+1QAjxLZw67d+8KMIOkdBddh/A072HMbk6ocSOInI2za0SDEgxyNNlEVnvAgZsqDdA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\reids\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,175 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\luaudecompilerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\luaudecompilerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\luaudecompilerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\luaudecompilerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\decompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\decompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\obj\\debug\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\obj\\debug\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\deserializer\\deserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\deserializer\\deserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\lifter\\lifter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\lifter\\lifter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\luaudecompilerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\luaudecompilerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Deserializer.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Deserializer.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Deserializer.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Deserializer.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Deserializer.cs",
+              "ViewState": "AQIAAD8BAAAAAAAAAAAmwFQBAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T16:02:04.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lifter.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Lifter.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Lifter.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Lifter.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Lifter.cs",
+              "ViewState": "AQIAAPgCAAAAAAAAAAAQwAcDAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:36:54.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Decompiler.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Decompiler.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Decompiler.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Decompiler.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Decompiler.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAswBgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:36:34.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "ChloeRT\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:36:16.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LuauDecompilerData.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerData.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerData.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerData.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:16:40.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LuauDecompilerWindow.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAArwCwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:15:38.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LuauDecompilerWindow.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs [Design]",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:14:46.704Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\Form1.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\Form1.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\Form1.cs",
+              "RelativeToolTip": "ChloeRT\\Form1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAApwCEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:08:00.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\Form1.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\Form1.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\Form1.cs [Design]",
+              "RelativeToolTip": "ChloeRT\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T15:07:15.955Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
