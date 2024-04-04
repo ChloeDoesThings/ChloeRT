@@ -22,6 +22,7 @@ namespace Unluau
 
         public override void Write(Output output)
         {
+            if (Condition != null) {
             output.Write("while ");
             Condition.Write(output);
             output.WriteLine(" do");
@@ -29,6 +30,7 @@ namespace Unluau
             Body.Write(output);
 
             output.Write("end");
+        }
         }
     }
 }

@@ -22,11 +22,14 @@ namespace Unluau
 
         public override void Write(Output output)
         {
-            output.WriteLine("repeat");
-            Body.Write(output);
-           
-            output.Write("until ");
-            Condition.Write(output);
+            if (Condition != null)
+            {
+                output.WriteLine("repeat");
+                Body.Write(output);
+
+                output.Write("until ");
+                Condition.Write(output);
+            }
         }
     }
 }

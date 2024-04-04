@@ -29,12 +29,14 @@ namespace Unluau
 
         public override void Write(Output output)
         {
+            if (Expression != null) {
             output.Write(UnaryOperationString(Operation));
 
             if (Operation == UnaryOperation.Not)
                 output.Write(" ");
 
             Expression.Write(output);
+        }
         }
 
         public static string UnaryOperationString(UnaryOperation operation)

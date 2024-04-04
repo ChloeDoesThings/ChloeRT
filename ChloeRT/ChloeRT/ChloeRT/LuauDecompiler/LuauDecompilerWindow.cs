@@ -88,7 +88,8 @@ namespace ChloeRT.ChloeRT.LuauDecompiler
             if (File.Exists("luau_decompiler\\disassemble_output.txt") && File.Exists("luau_decompiler\\decompile_output.txt"))
                 {
                     // yeah this looks bad lmao
-                    richTextBox1.Text = "-- Disassembled/Decompiled using ChloeRT Luau Decompiler (scuffed unluau fork)";
+                    richTextBox1.Text = "-- Disassembled/Decompiled using ChloeRT Luau Decompiler (scuffed unluau fork)\n";
+                    richTextBox1.Text += "-- Please note that there are prob A TON of bugs, make sure to report them using the ChloeRT GitHub repo's issues tab\n";
                     richTextBox1.Text += "\n\n\n-- DISASSEMBLED RESULTS: \n--[[\n";
                     richTextBox1.Text += File.ReadAllText("luau_decompiler\\disassemble_output.txt");
                     richTextBox1.Text += "]]\n\n-- DECOMPILED RESULTS: \n--[[\n";

@@ -87,7 +87,11 @@ namespace Unluau
                     output.Write(" = ");
                 }
 
-                entry.Value.Write(output);
+                if (entry.Value != null)
+                {
+
+                    entry.Value.Write(output);
+                }
             }
 
             if (itemsOnNewline)

@@ -48,7 +48,7 @@ namespace Unluau
             if (version >= 4)
             {
                 typesVersion = reader.ReadByte();
-                LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += "Got Types Version " + version.ToString() + "\n";
+                LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += "Got Types Version " + typesVersion.ToString() + "\n";
             }
 
             var strings = ReadStrings();

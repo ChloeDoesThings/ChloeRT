@@ -25,7 +25,10 @@ namespace Unluau
                 if (word[0] == '%')
                 {
                     output.Write("{");
-                    Arguments[argumentIndex++].Write(output);
+                    if (argumentIndex + 1 < Arguments.Count)
+                    {
+                        Arguments[argumentIndex++].Write(output);
+                    }
                     output.Write("}");
                 }
                 else

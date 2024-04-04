@@ -3,40 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\chloert\\chloert\\luaudecompiler\\unluau\\deserializer\\deserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\deserializer\\deserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\chloert\\chloert\\luaudecompiler\\unluau\\decompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\decompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\chloert\\obj\\debug\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:chloert\\obj\\debug\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\chloert\\chloert\\luaudecompiler\\luaudecompilerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\luaudecompilerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\luaudecompilerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\luaudecompilerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\luaudecompilerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\luaudecompilerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\decompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\decompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\obj\\debug\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\obj\\debug\\net8.0-windows\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\deserializer\\deserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\deserializer\\deserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\lifter\\lifter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\lifter\\lifter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\luaudecompilerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\chloert\\chloert\\luaudecompiler\\luaudecompilerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\luaudecompilerwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\lifter\\expressions\\tableliteral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\lifter\\expressions\\tableliteral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\lifter\\expressions\\interpolatedstringliteral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\lifter\\expressions\\interpolatedstringliteral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\lifter\\statements\\repeatuntil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\lifter\\statements\\repeatuntil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\lifter\\expressions\\unaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\lifter\\expressions\\unaryexpression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\lifter\\statements\\whileloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\lifter\\statements\\whileloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\chloert\\chloert\\luaudecompiler\\unluau\\lifter\\lifter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\lifter\\lifter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|c:\\users\\reids\\onedrive\\desktop\\chloert v1\\pog\\chloert\\chloert\\chloert\\chloert\\luaudecompiler\\unluau\\deserializer\\models\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\chloert\\luaudecompiler\\unluau\\deserializer\\models\\function.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52F86D30-B359-45D5-9EA4-66EBF0D3F255}|ChloeRT\\ChloeRT.csproj|solutionrelative:chloert\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,46 +78,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
+              "Title": "InterpolatedStringLiteral.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\InterpolatedStringLiteral.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\InterpolatedStringLiteral.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\InterpolatedStringLiteral.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\InterpolatedStringLiteral.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswB4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:22:54.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TableLiteral.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\TableLiteral.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\TableLiteral.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\TableLiteral.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\TableLiteral.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAswF0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:22:08.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RepeatUntil.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Statements\\RepeatUntil.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Statements\\RepeatUntil.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Statements\\RepeatUntil.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Statements\\RepeatUntil.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA7wB8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:21:39.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnaryExpression.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\UnaryExpression.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\UnaryExpression.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\UnaryExpression.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Expressions\\UnaryExpression.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswB8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:21:04.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WhileLoop.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Statements\\WhileLoop.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Statements\\WhileLoop.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Statements\\WhileLoop.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Statements\\WhileLoop.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:20:22.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Function.cs",
+              "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Models\\Function.cs",
+              "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Models\\Function.cs",
+              "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Models\\Function.cs",
+              "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Models\\Function.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAiwGIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T17:11:21.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Deserializer.cs",
               "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Deserializer.cs",
               "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Deserializer.cs",
               "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Deserializer.cs",
               "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Deserializer\\Deserializer.cs",
-              "ViewState": "AQIAAD8BAAAAAAAAAAAmwFQBAACBAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAtwDIAAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T16:02:04.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Lifter.cs",
               "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Lifter.cs",
               "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Lifter.cs",
               "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Lifter.cs",
               "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Lifter\\Lifter.cs",
-              "ViewState": "AQIAAPgCAAAAAAAAAAAQwAcDAAAYAAAA",
+              "ViewState": "AQIAAEQBAAAAAAAAAAAQwF4BAABeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T15:36:54.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Decompiler.cs",
               "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Decompiler.cs",
               "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Decompiler.cs",
               "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Decompiler.cs",
               "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\unluau\\Decompiler.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAswBgAAAAeAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAA3wCEAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T15:36:34.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
               "RelativeDocumentMoniker": "ChloeRT\\obj\\Debug\\net8.0-windows\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
@@ -106,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LuauDecompilerData.cs",
               "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerData.cs",
               "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerData.cs",
@@ -119,20 +221,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "LuauDecompilerWindow.cs",
               "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
               "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
               "ToolTip": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
               "RelativeToolTip": "ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAArwCwAAAAjAAAA",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAQwE0AAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T15:15:38.415Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "LuauDecompilerWindow.cs [Design]",
               "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
               "RelativeDocumentMoniker": "ChloeRT\\ChloeRT\\LuauDecompiler\\LuauDecompilerWindow.cs",
@@ -144,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\Form1.cs",
               "RelativeDocumentMoniker": "ChloeRT\\Form1.cs",
@@ -157,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\reids\\OneDrive\\Desktop\\ChloeRT v1\\pog\\ChloeRT\\ChloeRT\\ChloeRT\\Form1.cs",
               "RelativeDocumentMoniker": "ChloeRT\\Form1.cs",

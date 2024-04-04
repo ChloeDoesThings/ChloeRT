@@ -8,6 +8,7 @@ using System.Linq.Expressions;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using ChloeRT.ChloeRT.LuauDecompiler;
 using Serilog;
 
 namespace Unluau
@@ -195,17 +196,20 @@ namespace Unluau
                             Expression call = new FunctionCall(callFunction, arguments);
 
                             // Note: we do this for string interpolation to work
-                            var callFunctionValue = callFunction.GetValue();
-                            if (callFunctionValue is InterpolatedStringLiteral literal)
+                            if (callFunction != null)
                             {
-                                literal.Arguments = arguments;
-                                call = literal;
-                            }
+                                var callFunctionValue = callFunction.GetValue();
+                                if (callFunctionValue is InterpolatedStringLiteral literal)
+                                {
+                                    literal.Arguments = arguments;
+                                    call = literal;
+                                }
 
-                            if (instruction.C - 1 == 0)
-                                block.AddStatement(call, pc);
-                            else
-                                registers.LoadRegister(instruction.A, call, block, pc);
+                                if (instruction.C - 1 == 0)
+                                    block.AddStatement(call, pc);
+                                else
+                                    registers.LoadRegister(instruction.A, call, block, pc);
+                            }
                             break;
                         }
                     case OpCode.MOVE:
@@ -326,23 +330,26 @@ namespace Unluau
                             {
                                 Expression expression = registers.GetRefExpressionValue(instruction.C), value = registers.GetExpression(instruction.A);
 
-                                Expression table = registers.GetExpression(instruction.B, false), tableValue = ((LocalExpression)table).Expression;
-
-                                if (options.InlineTableDefintions && tableValue is TableLiteral)
+                                Expression table = registers.GetExpression(instruction.B, false);
+                                if (table != null)
                                 {
-                                    TableLiteral tableLiteral = (TableLiteral)tableValue;
+                                    Expression tableValue = ((LocalExpression)table).Expression;
 
-                                    if (tableLiteral.MaxEntries > tableLiteral.Entries.Count)
+                                    if (options.InlineTableDefintions && tableValue is TableLiteral)
                                     {
-                                        tableLiteral.AddEntry(new TableLiteral.Entry(expression, value));
-                                        break;
+                                        TableLiteral tableLiteral = (TableLiteral)tableValue;
+
+                                        if (tableLiteral.MaxEntries > tableLiteral.Entries.Count)
+                                        {
+                                            tableLiteral.AddEntry(new TableLiteral.Entry(expression, value));
+                                            break;
+                                        }
                                     }
+                                    if (expression is NumberLiteral || expression is StringLiteral)
+                                        expression = new ExpressionIndex(table, expression);
+
+                                    block.AddStatement(new Assignment(expression, value), pc);
                                 }
-
-                                if (expression is NumberLiteral || expression is StringLiteral)
-                                    expression = new ExpressionIndex(table, expression);
-
-                                block.AddStatement(new Assignment(expression, value), pc);
                             }
                             break;
                         }
@@ -714,10 +721,13 @@ namespace Unluau
 
         private int IsSelf(Expression expression)
         {
-            Expression? value = expression.GetValue();
+            if (expression != null)
+            {
+                Expression? value = expression.GetValue();
 
-            if (value is NameIndex nameIndex)
-                return nameIndex.IsSelf ? 1 : 0;
+                if (value is NameIndex nameIndex)
+                    return nameIndex.IsSelf ? 1 : 0;
+            }
 
             return 0;
         }
@@ -751,7 +761,7 @@ namespace Unluau
 
             if (operation == BinaryExpression.BinaryOperation.CompareEq && code != OpCode.JUMPIFEQ)
             {
-                if (aux.Value > constants.Count)
+                if (aux.Value > constants.Count - 1)
                 {
                     right = code switch
                     {
