@@ -71,6 +71,7 @@
             richTextBox2.Size = new Size(279, 481);
             richTextBox2.TabIndex = 3;
             richTextBox2.Text = "Debug Output";
+            richTextBox2.TextChanged += richTextBox2_TextChanged;
             // 
             // LuauDecompilerWindow
             // 

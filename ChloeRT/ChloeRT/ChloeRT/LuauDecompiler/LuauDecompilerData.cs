@@ -9,6 +9,6 @@ namespace ChloeRT.ChloeRT.LuauDecompiler
     public static class LuauDecompilerData
     {
         public static string luauDecompiler_OpenedFile = null;
-        public static RichTextBox luauDecompiler_Window_DebugTextbox = null;
+        public static string luauDecompiler_Window_DebugText = null;
     }
 }

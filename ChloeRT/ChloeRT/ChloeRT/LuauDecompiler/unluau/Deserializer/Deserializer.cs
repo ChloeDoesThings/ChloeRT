@@ -35,7 +35,7 @@ namespace Unluau
 
             version = reader.ReadByte();
 
-            LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += "Got Bytecode Version " + version.ToString() + "\n";
+            LuauDecompilerData.luauDecompiler_Window_DebugText += "Got Bytecode Version " + version.ToString() + "\n";
 
             // The rest of the bytecode is the error message
             if (version == 0)
@@ -48,7 +48,7 @@ namespace Unluau
             if (version >= 4)
             {
                 typesVersion = reader.ReadByte();
-                LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += "Got Types Version " + typesVersion.ToString() + "\n";
+                LuauDecompilerData.luauDecompiler_Window_DebugText += "Got Types Version " + typesVersion.ToString() + "\n";
             }
 
             var strings = ReadStrings();
@@ -64,7 +64,7 @@ namespace Unluau
 
             IList<string> strings = new List<string>(size);
 
-            LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += ($"Reading {size} strings from the string table") + "\n";
+            LuauDecompilerData.luauDecompiler_Window_DebugText += ($"Reading {size} strings from the string table") + "\n";
 
             while (strings.Count < size)
             {
@@ -95,7 +95,7 @@ namespace Unluau
 
             IList<Function> functions = new List<Function>(size);
 
-            LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += ($"Reading {size} functions from main bytecode pool") + "\n";
+            LuauDecompilerData.luauDecompiler_Window_DebugText += ($"Reading {size} functions from main bytecode pool") + "\n";
 
             while (functions.Count < size)
                 functions.Add(ReadFunction(functions, strings));
@@ -109,7 +109,7 @@ namespace Unluau
 
             function.Id = functions.Count;
 
-            LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += ("Reading basic function prototype information") + "\n";
+            LuauDecompilerData.luauDecompiler_Window_DebugText += ("Reading basic function prototype information") + "\n";
 
             function.MaxStackSize = reader.ReadByte();
             function.Parameters = reader.ReadByte();
@@ -154,7 +154,7 @@ namespace Unluau
 
             IList<Instruction> instructions = new List<Instruction>(size);
 
-            LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += ($"Reading {size} instructions from function prototype body") + "\n";
+            LuauDecompilerData.luauDecompiler_Window_DebugText += ($"Reading {size} instructions from function prototype body") + "\n";
 
             while (instructions.Count < size) 
             {
@@ -164,6 +164,7 @@ namespace Unluau
                 // Note: Sometimes we get NOPs...
                 if (properties.Code == OpCode.NOP)
                     Log.Warning($"Encountered unexpected NOP instruction.");
+
 
                 instructions.Add(instruction);
 
@@ -180,7 +181,7 @@ namespace Unluau
 
             IList<Constant> constants = new List<Constant>(size);
 
-            LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += ($"Reading {size} constants from function prototype body") + "\n";
+            LuauDecompilerData.luauDecompiler_Window_DebugText += ($"Reading {size} constants from function prototype body") + "\n";
 
 
             while (constants.Count < size)
@@ -268,7 +269,7 @@ namespace Unluau
             // Line info needs to be enabled
             if (reader.ReadBoolean())
             {
-                LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += ("Line information is enabled, reading.") + "\n";
+                LuauDecompilerData.luauDecompiler_Window_DebugText += ("Line information is enabled, reading.") + "\n";
 
                 lineInfo = new LineInfo();
 
@@ -295,7 +296,7 @@ namespace Unluau
                 }
             }
             else
-                LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += ("Line information is disabled, skipping.") + "\n";
+                LuauDecompilerData.luauDecompiler_Window_DebugText += ("Line information is disabled, skipping.") + "\n";
 
             return lineInfo;
         }
@@ -307,7 +308,7 @@ namespace Unluau
             // Line info needs to be enabled
             if (reader.ReadBoolean())
             {
-                LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += ("Debug information is enabled, reading.") + "\n";
+                LuauDecompilerData.luauDecompiler_Window_DebugText += ("Debug information is enabled, reading.") + "\n";
 
                 debugInfo = new DebugInfo();
 
@@ -338,7 +339,7 @@ namespace Unluau
                 debugInfo.Upvalues = upvalues;
             }
             else
-                LuauDecompilerData.luauDecompiler_Window_DebugTextbox.Text += ("Debug information is disabled, skipping.") + "\n";
+                LuauDecompilerData.luauDecompiler_Window_DebugText += ("Debug information is disabled, skipping.") + "\n";
 
             return debugInfo;
         }

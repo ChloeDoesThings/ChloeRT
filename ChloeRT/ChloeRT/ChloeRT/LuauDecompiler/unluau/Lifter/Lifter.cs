@@ -144,6 +144,14 @@ namespace Unluau
                             registers.LoadRegister(instruction.A, expression, block, pc);
                             break;
                         }
+                    case OpCode.SETUPVAL:
+                        LocalExpression expression2 = function.Upvalues[instruction.B];
+
+                        if (expression2 != null)
+                        {
+                            registers.LoadRegister(instruction.A, expression2, block, pc, expression2.Decleration.Type);
+                        }
+                        break;
                     case OpCode.GETTABLEN:
                         {
                             ExpressionIndex index = new ExpressionIndex(registers.GetExpression(instruction.B), new NumberLiteral(instruction.C + 1));
@@ -705,6 +713,8 @@ namespace Unluau
                         {
                             // Log.Warning($"Encountered unhandled code {properties.Code}, skipping");
 
+                            LuauDecompilerData.luauDecompiler_Window_DebugText += ($"Got unknown opcode while decompiling: {instruction.Code}") + "\n";
+
                             // If we don't handle the instruction and it has an auxiliary value, we need to skip it
                             if (properties.HasAux)
                                 pc++;
@@ -768,7 +778,7 @@ namespace Unluau
                         // Both instructions contain a constant index as the aux instruction.
                         OpCode.JUMPXEQKN or OpCode.JUMPXEQKS => ConstantToExpression(constants[(int)aux.Value & 0xffffff]),
                         OpCode.JUMPXEQKNIL => new NilLiteral(),
-                        _ => ConstantToExpression(new NilConstant()),
+                        _ => ConstantToExpression(new StringConstant("???")),
                     };
                 }
                 else
@@ -780,7 +790,7 @@ namespace Unluau
                             // Both instructions contain a constant index as the aux instruction.
                             OpCode.JUMPXEQKN or OpCode.JUMPXEQKS => ConstantToExpression(constants[(int)aux.Value & 0xffffff]),
                             OpCode.JUMPXEQKNIL => new NilLiteral(),
-                            _ => ConstantToExpression(new NilConstant()),
+                            _ => ConstantToExpression(new StringConstant("???")),
                         };
                     }
                     else
