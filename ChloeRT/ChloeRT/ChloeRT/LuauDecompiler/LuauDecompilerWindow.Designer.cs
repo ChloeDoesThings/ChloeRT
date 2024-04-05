@@ -30,7 +30,8 @@
         {
             richTextBox1 = new RichTextBox();
             button1 = new Button();
-            richTextBox2 = new RichTextBox();
+            button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // richTextBox1
@@ -41,7 +42,7 @@
             richTextBox1.ForeColor = Color.White;
             richTextBox1.Location = new Point(12, 12);
             richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(677, 481);
+            richTextBox1.Size = new Size(963, 481);
             richTextBox1.TabIndex = 0;
             richTextBox1.Text = "Decompilation Output";
             // 
@@ -60,18 +61,35 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
-            // richTextBox2
+            // button2
             // 
-            richTextBox2.BackColor = Color.FromArgb(35, 35, 35);
-            richTextBox2.BorderStyle = BorderStyle.None;
-            richTextBox2.Font = new Font("Product Sans", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            richTextBox2.ForeColor = Color.White;
-            richTextBox2.Location = new Point(695, 12);
-            richTextBox2.Name = "richTextBox2";
-            richTextBox2.Size = new Size(279, 481);
-            richTextBox2.TabIndex = 3;
-            richTextBox2.Text = "Debug Output";
-            richTextBox2.TextChanged += richTextBox2_TextChanged;
+            button2.BackColor = Color.FromArgb(45, 45, 45);
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Product Sans", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(669, 499);
+            button2.Name = "button2";
+            button2.Size = new Size(306, 51);
+            button2.TabIndex = 3;
+            button2.Text = "Set Mode to \"Decompile\"";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.FromArgb(45, 45, 45);
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Product Sans", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(357, 499);
+            button3.Name = "button3";
+            button3.Size = new Size(306, 51);
+            button3.TabIndex = 4;
+            button3.Text = "Set Mode to \"Disassemble\"";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // LuauDecompilerWindow
             // 
@@ -79,7 +97,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(25, 25, 25);
             ClientSize = new Size(987, 562);
-            Controls.Add(richTextBox2);
+            Controls.Add(button3);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(richTextBox1);
             FormBorderStyle = FormBorderStyle.FixedDialog;
@@ -94,6 +113,7 @@
 
         private RichTextBox richTextBox1;
         private Button button1;
-        private RichTextBox richTextBox2;
+        private Button button2;
+        private Button button3;
     }
 }

@@ -39,6 +39,7 @@ namespace Unluau
             else
             {
                 Console.WriteLine("UNLUAU ERROR: Expression and/or Decleration was null");
+                output.Write("???");
             }
         }
 

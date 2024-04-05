@@ -72,6 +72,22 @@ namespace Unluau
             else
             {
                 Console.WriteLine("UNLUAU ERROR: Value and/or Expression was null");
+                if (Value == null && Expression == null)
+                {
+                    output.Write("??? = ??? -- unable to decompile");
+                }
+                if (Value == null && Expression != null)
+                {
+                    Expression.Write(output);
+                    output.Write(" = ??? -- unable to decompile fully");
+                }
+                if (Value != null && Expression == null)
+                {
+                    output.Write("???");
+                    output.Write(" = ");
+                    Value.Write(output);
+                    output.Write(" -- unable to decompile fully");
+                }
             }
         }
     }

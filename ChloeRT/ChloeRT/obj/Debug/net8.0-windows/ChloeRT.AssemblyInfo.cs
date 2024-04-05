@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ChloeRT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce8e0eebd7bd67ad93216a57b908bbd1ada21481")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a102812e01ec19990fd0f234a0f8ae49388dbd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ChloeRT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ChloeRT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

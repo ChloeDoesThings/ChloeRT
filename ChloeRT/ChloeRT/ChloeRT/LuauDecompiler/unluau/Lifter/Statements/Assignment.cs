@@ -42,6 +42,8 @@ namespace Unluau
             else
             {
                 Console.WriteLine("UNLUAU ERROR: Value was null");
+                Variable.Write(output);
+                output.Write(" = ??? -- unable to decompile fully");
             }
         }
     }

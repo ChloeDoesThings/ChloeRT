@@ -38,10 +38,11 @@ namespace ChloeRT.ChloeRT.LuauDecompiler
             Environment.Exit(0);
         }
 
+        public string mode = "decompile";
+
         private void button1_Click(object sender, EventArgs e)
         {
             LuauDecompilerData.luauDecompiler_Window_DebugText = "";
-            richTextBox2.Text = "";
             richTextBox1.Text = "";
 
             Stream stream = File.OpenRead(LuauDecompilerData.luauDecompiler_OpenedFile);
@@ -69,7 +70,7 @@ namespace ChloeRT.ChloeRT.LuauDecompiler
                     HeaderEnabled = true,
                     InlineTableDefintions = true,
                     RenameUpvalues = true,
-                    VariableNameGuessing = true,
+                    VariableNameGuessing = false,
                     Version = "v1.0.0",
                     PerferStringInterpolation = true,
                     Encoding = OpCodeEncoding.Client,
@@ -87,15 +88,22 @@ namespace ChloeRT.ChloeRT.LuauDecompiler
 
             if (File.Exists("luau_decompiler\\disassemble_output.txt") && File.Exists("luau_decompiler\\decompile_output.txt"))
             {
-                richTextBox2.Text = LuauDecompilerData.luauDecompiler_Window_DebugText;
                 // yeah this looks bad lmao
                 richTextBox1.Text = "-- Disassembled/Decompiled using ChloeRT Luau Decompiler (scuffed unluau fork)\n";
                 richTextBox1.Text += "-- Please note that there are prob A TON of bugs, make sure to report them using the ChloeRT GitHub repo's issues tab\n";
-                richTextBox1.Text += "\n\n\n-- DISASSEMBLED RESULTS: \n--[[\n";
-                richTextBox1.Text += File.ReadAllText("luau_decompiler\\disassemble_output.txt");
-                richTextBox1.Text += "\n]]\n\n-- DECOMPILED RESULTS: \n--[[\n";
-                richTextBox1.Text += File.ReadAllText("luau_decompiler\\decompile_output.txt");
-                richTextBox1.Text += "\n]]";
+
+                if (mode == "decompile")
+                {
+                    richTextBox1.Text += "\n\n\n--[[\n";
+                    richTextBox1.Text += File.ReadAllText("luau_decompiler\\decompile_output.txt");
+                    richTextBox1.Text += "\n]]";
+                }
+                if (mode == "disassemble")
+                {
+                    richTextBox1.Text += "\n\n\n--[[\n";
+                    richTextBox1.Text += File.ReadAllText("luau_decompiler\\disassemble_output.txt");
+                    richTextBox1.Text += "\n]]";
+                }
             }
             else
             {
@@ -106,8 +114,16 @@ namespace ChloeRT.ChloeRT.LuauDecompiler
 
         private void richTextBox2_TextChanged(object sender, EventArgs e)
         {
-            richTextBox2.SelectionStart = richTextBox2.Text.Length;
-            richTextBox2.ScrollToCaret();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            mode = "disassemble";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            mode = "decompile";
         }
     }
 }
