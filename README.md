@@ -4,6 +4,8 @@ ChloeRT is a tool (coded in C#) that allows you to understand bytecode and progr
 
 ## Our Luau Decompiler is broken atm, please wait until we fix it. Thanks :)
 
+## Our Discord: https://discord.gg/8MrBUDFJba
+
 ## What features will it have?
 1. A disassembler/decompiler for x86 executable (.exe) and dynamic link library (.dll) files.
 
